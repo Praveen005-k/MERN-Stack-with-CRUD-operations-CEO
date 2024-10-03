@@ -1,0 +1,36 @@
+
+
+https://www.innovationnewsnetwork.com/wp-content/uploads/2022/05/%C2%A9-iStock-Who_I_am.jpg
+
+https://img.freepik.com/premium-vector/white-abstract-background-design_665257-26.jpg?w=2000
+
+
+
+
+
+
+
+
+<div className="mb-3">
+                        <label>Shifts</label><br />
+                        <div className="form-check form-check-inline">
+                            <input
+                                type="checkbox"
+                                name="morning"
+                                className={`form-check-input `}
+                                checked={setShifts.morning}
+                                onChange={(e)=>setShifts(e.target.value)}
+                            />
+                            <label className="form-check-label">Morning</label>
+                        </div>
+                        <div className="form-check form-check-inline">
+                            <input
+                                type="checkbox"
+                                name="night"
+                                className={`form-check-input `}
+                                checked={setShifts.night}
+                                onChange={(e) => setShifts(e.target.value)}
+                            />
+                            <label className="form-check-label">Night</label>
+                        </div>
+                    </div>
